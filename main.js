@@ -3,8 +3,6 @@ menuSection = document.querySelector("#menu-tab");
 contactSection = document.querySelector("#contact-tab");
 mainContent = document.querySelector("#content");
 
-
-
 homeSection.addEventListener("click", ()=>{
     mainContent.innerHTML= `
     <div class="home-sec">
